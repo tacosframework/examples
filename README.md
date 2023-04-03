@@ -7,7 +7,7 @@ Example implementations of TACOS framework. Please read the definitions in the [
 {
   "@context": "domain/namespace",
   "@id": "document URL",
-  "signature": {"type": "sha256", "digest": "78ab8..."},
+  "Signature": {"type": "sha256", "digest": "78ab8..."},
   "author": "Firstname Lastname",
   "role": "Attestor",
   "timestamp": "2022-03-23T05:35.37:00+04:00",
@@ -46,17 +46,17 @@ Example implementations of TACOS framework. Please read the definitions in the [
    "SDLCPolicyURL": "https://support.tidelift.com/hc/en-us/sections/6793135744404-Lifter-tasks",
    "SDLCEvidenceDataURL": "https://tidelift.com/packages/maven/org.apache.samplepackage/",
    "PackageStatus": {
-	"status": "active",
+	"status": "Active",
 	"LastModifiedDateTimeUTC": "2022-03-23T05:35.37:00+04:00"
    }
    "IncomeStreams": [
    {
-	"type": "lifted",
+	"type": "Lifted",
 	"EvidenceURL": "https://tidelift.com/lifted-packages",
 	"LastModifiedDateTimeUTC": "2022-03-23T05:35.37:00+04:00"
    },
    {
-	"type": "variable",
+	"type": "Variable",
 	"EvidenceURL": "https://github.com/sponsors/maintainername",
 	"LastModifiedDateTimeUTC": "2022-03-23T05:35.37:00+04:00"
     },
@@ -114,7 +114,7 @@ Example implementations of TACOS framework. Please read the definitions in the [
    "SDLCPolicyURL": "NOASSERTION",
    "SDLCEvidenceDataURL": "NOASSERTION",
    "PackageStatus": {
-	"status": "inactive",
+	"status": "Inactive",
 	"LastModifiedDateTimeUTC": "2022-03-23T05:35.37:00+04:00"
    }
    "IncomeStreams": ["NOASSERTION"],
@@ -169,12 +169,12 @@ Example implementations of TACOS framework. Please read the definitions in the [
    "SDLCPolicyURL": "https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/support/vmware-external-vulnerability-response-and-remediation-policy.pdf",
    "SDLCEvidenceDataURL": "https://spring.io/security/",
    "PackageStatus": {
-	"status": "active",
+	"status": "Active",
 	"LastModifiedDateTimeUTC": "2022-03-23T05:35.37:00+04:00"
    }
    "IncomeStreams":  [
    {
-	"type": "corporate",
+	"type": "Corporate",
 	"EvidenceURL": "https://spring.io/",
 	"LastModifiedDateTimeUTC": "2022-03-23T05:35.37:00+04:00"
    },
