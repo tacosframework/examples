@@ -90,7 +90,13 @@ Example implementations of TACOS framework. Please read the definitions in the [
    "SPDXLicenseLatestRelease": "MIT",
    "LatestRelease": "1.4.1",
    "ReleasesInUse": ["1.4.1"],
-   "SBOM": { "NOASSERTION"},
+   "SBOM": {
+	   "type": "cycloneDX",
+	   "version": "1.2",
+	   "format": "XML",
+	   "DigitalSignatureURL": "https://tidelift.com/packages/pypi/python-samplepackage-latest-cycloneDX.xml.sig",
+	   "URL": "https://tidelift.com/packages/pypi/python-samplepackage-latest-cycloneDX.xml"
+	},
    "PackageManager2FAEnabled": "NOASSERTION",
    "SourceRepo2FAEnabled": "NOASSERTION",
    "KnownReleasesURL": "https://github.com/maintainername/python-samplepackage/tags",
@@ -120,3 +126,61 @@ Example implementations of TACOS framework. Please read the definitions in the [
 
 
 ## **Upstream application library supported by a vendor**
+```json
+{
+  "@context": "domain/namespace",
+  "@id": "document URL",
+  "signature": {"type": "sha256", "digest": "78ab8..."},
+  "author": "Firstname Lastname",
+  "role": "Attestor",
+  "timestamp": "2022-03-23T05:35.37:00+04:00",
+  "TACOSversion": "1",
+  "application": "HelloWorld",
+  "statements": [
+   {
+   "PackageName": "org.springframework.boot:spring-boot",
+   "PackagePlatform": "maven",
+   "PURL": "pkg:maven/org.springframework.boot:spring-boot",
+   "UpstreamRepositoryURL": "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot/",
+   "SPDXLicenseLatestRelease": "Apache-2.0",
+   "LatestRelease": "3.0.5",
+   "ReleasesInUse": ["2.2.1.RELEASE, 2.7.10, 2.7.8, 2.7.7"],
+   "SBOM": {
+	   "type": "cycloneDX",
+	   "version": "1.2",
+	   "format": "XML",
+	   "DigitalSignatureURL": "https://tidelift.com/packages/maven/org.springframework.boot:spring-boot-latest-cycloneDX.xml.sig",
+	   "URL": "https://tidelift.com/packages/maven/org.springframework.boot:spring-boot-latest-cycloneDX.xml"
+	},
+   "PackageManager2FAEnabled": "NOASSERTION",
+   "SourceRepo2FAEnabled": "NOASSERTION",
+   "KnownReleasesURL": "https://tidelift.com/packages/maven/org.springframework.boot:spring-boot/releases-map",
+   "CleanReleaseAvailable": "True",
+   "KnownVulnerabilities": "True",
+   "KnownVulnerabilitiesInDependencies": "True",
+   "KnownVulnerabilitiesURL": "https://tidelift.com/packages/maven/org.springframework.boot:spring-boot/vulnerabilties-map",
+   "PackageSecurityPolicyURL": "https://www.vmware.com/support/policies/security_response.html",
+   "PackageSecurityContact": "security@vmware.com",
+   "BinariesInRepository": "NOASSERTION",
+   "CodeReviewPractice": "NOASSERTION",
+   "FuzzingPractice": "NOASSERTION",
+   "ReproducibleBuilds": "NOASSERTION",
+   "ReleasesDigitallySigned": "NOASSERTION",
+   "SDLCPolicyURL": "https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/support/vmware-external-vulnerability-response-and-remediation-policy.pdf",
+   "SDLCEvidenceDataURL": "https://spring.io/security/",
+   "PackageStatus": {
+	"status": "active",
+	"LastModifiedDateTimeUTC": "2022-03-23T05:35.37:00+04:00"
+   }
+   "IncomeStreams":  [
+   {
+	"type": "corporate",
+	"EvidenceURL": "https://spring.io/",
+	"LastModifiedDateTimeUTC": "2022-03-23T05:35.37:00+04:00"
+   },
+   ],
+   "LastModifiedDateTimeUTC": "2022-03-23T05:35.37:00+04:00"
+   }
+ ]
+}
+```
