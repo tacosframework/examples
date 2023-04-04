@@ -10,7 +10,7 @@ Example implementations of TACOS framework. Please read the definitions in the [
   "Signature": {"type": "sha256", "digest": "78ab8..."},
   "author": "Firstname Lastname",
   "role": "Attestor",
-  "timestamp": "2022-03-23T05:35.37:00+04:00",
+  "LastModifiedDateTimeUTC": "2022-03-23T05:35.37:00+04:00"
   "TACOSversion": "1",
   "application": "HelloWorld",
   "statements": [
@@ -61,7 +61,6 @@ Example implementations of TACOS framework. Please read the definitions in the [
 	"LastModifiedDateTimeUTC": "2022-03-23T05:35.37:00+04:00"
     },
     ],
-    "LastModifiedDateTimeUTC": "2022-03-23T05:35.37:00+04:00"
     }
  ]
 }
@@ -78,7 +77,7 @@ Example implementations of TACOS framework. Please read the definitions in the [
   "signature": {"type": "sha256", "digest": "78ab8..."},
   "author": "Firstname Lastname",
   "role": "Attestor",
-  "timestamp": "2022-03-23T05:35.37:00+04:00",
+  "LastModifiedDateTimeUTC": "2022-03-23T05:35.37:00+04:00"
   "TACOSversion": "1",
   "application": "HelloWorld",
   "statements": [
@@ -118,7 +117,6 @@ Example implementations of TACOS framework. Please read the definitions in the [
 	"LastModifiedDateTimeUTC": "2022-03-23T05:35.37:00+04:00"
    }
    "IncomeStreams": ["NOASSERTION"],
-   "LastModifiedDateTimeUTC": "2022-03-23T05:35.37:00+04:00"
    }
  ]
 }
@@ -133,7 +131,7 @@ Example implementations of TACOS framework. Please read the definitions in the [
   "signature": {"type": "sha256", "digest": "78ab8..."},
   "author": "Firstname Lastname",
   "role": "Attestor",
-  "timestamp": "2022-03-23T05:35.37:00+04:00",
+  "LastModifiedDateTimeUTC": "2022-03-23T05:35.37:00+04:00"
   "TACOSversion": "1",
   "application": "HelloWorld",
   "statements": [
@@ -179,7 +177,6 @@ Example implementations of TACOS framework. Please read the definitions in the [
 	"LastModifiedDateTimeUTC": "2022-03-23T05:35.37:00+04:00"
    },
    ],
-   "LastModifiedDateTimeUTC": "2022-03-23T05:35.37:00+04:00"
    }
  ]
 }
