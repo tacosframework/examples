@@ -20,14 +20,14 @@ Example implementations of TACOS framework. Please read the definitions in the [
    "PURL": "pkg:maven/org.apache.samplepackage",
    "UpstreamRepositoryURL": "https://github.com/apache/samplepackage",
    "SPDXLicenseLatestRelease": "Apache-2.0",
-   "LatestRelease": "2.14.2",
+   "LatestStableRelease": "2.14.2",
    "ReleasesInUse": ["2.14.2, 2.14.0, 2.9.8"],
    "SBOM": {
 	   "type": "cycloneDX",
 	   "version": "1.2",
 	   "format": "XML",
-	   "DigitalSignatureURL": "https://tidelift.com/packages/maven/org.apache.samplepackage-latest-cycloneDX.xml.sig",
-	   "URL": "https://tidelift.com/packages/maven/org.apache.samplepackage-latest-cycloneDX.xml"
+	   "URL": "https://tidelift.com/packages/maven/org.apache.samplepackage-latest-cycloneDX.xml",
+	   "DigitalSignatureURL": "https://tidelift.com/packages/maven/org.apache.samplepackage-latest-cycloneDX.xml.sig"
 	},
    "PackageManager2FAEnabled": "True",
    "SourceRepo2FAEnabled": "True",
@@ -87,14 +87,14 @@ Example implementations of TACOS framework. Please read the definitions in the [
    "PURL": "pkg:pypi/python-samplepackage",
    "UpstreamRepositoryURL": "https://github.com/maintainername/python-samplepackage",
    "SPDXLicenseLatestRelease": "MIT",
-   "LatestRelease": "1.4.1",
+   "LatestStableRelease": "1.4.1",
    "ReleasesInUse": ["1.4.1"],
    "SBOM": {
 	   "type": "cycloneDX",
 	   "version": "1.2",
 	   "format": "XML",
-	   "DigitalSignatureURL": "https://tidelift.com/packages/pypi/python-samplepackage-latest-cycloneDX.xml.sig",
-	   "URL": "https://tidelift.com/packages/pypi/python-samplepackage-latest-cycloneDX.xml"
+	   "URL": "https://tidelift.com/packages/pypi/python-samplepackage-latest-cycloneDX.xml",
+	   "DigitalSignatureURL": "https://tidelift.com/packages/pypi/python-samplepackage-latest-cycloneDX.xml.sig"	   
 	},
    "PackageManager2FAEnabled": "NOASSERTION",
    "SourceRepo2FAEnabled": "NOASSERTION",
@@ -141,14 +141,14 @@ Example implementations of TACOS framework. Please read the definitions in the [
    "PURL": "pkg:maven/org.springframework.boot:spring-boot",
    "UpstreamRepositoryURL": "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot/",
    "SPDXLicenseLatestRelease": "Apache-2.0",
-   "LatestRelease": "3.0.5",
+   "LatestStableRelease": "3.0.5",
    "ReleasesInUse": ["2.2.1.RELEASE, 2.7.10, 2.7.8, 2.7.7"],
    "SBOM": {
 	   "type": "cycloneDX",
 	   "version": "1.2",
 	   "format": "XML",
-	   "DigitalSignatureURL": "https://tidelift.com/packages/maven/org.springframework.boot:spring-boot-latest-cycloneDX.xml.sig",
-	   "URL": "https://tidelift.com/packages/maven/org.springframework.boot:spring-boot-latest-cycloneDX.xml"
+	   "URL": "https://tidelift.com/packages/maven/org.springframework.boot:spring-boot-latest-cycloneDX.xml",
+	   "DigitalSignatureURL": "https://tidelift.com/packages/maven/org.springframework.boot:spring-boot-latest-cycloneDX.xml.sig"
 	},
    "PackageManager2FAEnabled": "NOASSERTION",
    "SourceRepo2FAEnabled": "NOASSERTION",
