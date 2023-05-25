@@ -22,13 +22,18 @@ Example implementations of TACOS framework. Please read the definitions in the [
    "SPDXLicenseLatestRelease": "Apache-2.0",
    "LatestStableRelease": "2.14.2",
    "ReleasesInUse": ["2.14.2, 2.14.0, 2.9.8"],
-   "SBOM": {
+   "SBOM": [
+   	{
 	   "type": "cycloneDX",
-	   "version": "1.2",
-	   "format": "XML",
-	   "URL": "https://tidelift.com/packages/maven/org.apache.samplepackage-latest-cycloneDX.xml",
+	   "URL": "https://tidelift.com/external-api/packages/maven/org.apache.samplepackage/releases/2.14.2/sbom.xml",
 	   "DigitalSignatureURL": "https://tidelift.com/packages/maven/org.apache.samplepackage-latest-cycloneDX.xml.sig"
 	},
+	{
+	   "type": "spdx",
+	   "URL": "https://tidelift.com/external-api/packages/maven/org.apache.samplepackage/releases/2.14.2/sbom.spdx",
+	   "DigitalSignatureURL": "https://tidelift.com/packages/maven/org.apache.samplepackage-latest-spdx.xml.sig"
+	}
+   ],
    "PackageManager2FAEnabled": "True",
    "SourceRepo2FAEnabled": "True",
    "KnownReleasesURL": "https://tidelift.com/packages/maven/org.apache.samplepackage/releases-map",
@@ -89,13 +94,18 @@ Example implementations of TACOS framework. Please read the definitions in the [
    "SPDXLicenseLatestRelease": "MIT",
    "LatestStableRelease": "1.4.1",
    "ReleasesInUse": ["1.4.1"],
-   "SBOM": {
+   "SBOM": [
+   	{
 	   "type": "cycloneDX",
-	   "version": "1.2",
-	   "format": "XML",
-	   "URL": "https://tidelift.com/packages/pypi/python-samplepackage-latest-cycloneDX.xml",
-	   "DigitalSignatureURL": "https://tidelift.com/packages/pypi/python-samplepackage-latest-cycloneDX.xml.sig"	   
+	   "URL": "https://tidelift.com/external-api/packages/pypi/python-samplepackage/releases/1.4.1/sbom.xml",
+	   "DigitalSignatureURL": "https://tidelift.com/packages/pypi/python-samplepackage-latest-cycloneDX.xml.sig"
 	},
+	{
+	   "type": "spdx",
+	   "URL": "https://tidelift.com/external-api/packages/pypi/python-samplepackage/releases/1.4.1/sbom.spdx",
+	   "DigitalSignatureURL": "https://tidelift.com/packages/pypi/python-samplepackage-latest-spdx.xml.sig"
+	}
+   ],
    "PackageManager2FAEnabled": "NOASSERTION",
    "SourceRepo2FAEnabled": "NOASSERTION",
    "KnownReleasesURL": "https://github.com/maintainername/python-samplepackage/tags",
@@ -143,13 +153,18 @@ Example implementations of TACOS framework. Please read the definitions in the [
    "SPDXLicenseLatestRelease": "Apache-2.0",
    "LatestStableRelease": "3.0.5",
    "ReleasesInUse": ["2.2.1.RELEASE, 2.7.10, 2.7.8, 2.7.7"],
-   "SBOM": {
+   "SBOM": [
+   	{
 	   "type": "cycloneDX",
-	   "version": "1.2",
-	   "format": "XML",
-	   "URL": "https://tidelift.com/packages/maven/org.springframework.boot:spring-boot-latest-cycloneDX.xml",
+	   "URL": "https://tidelift.com/external-api/packages/maven/org.springframework.boot/releases/3.0.5/sbom.xml",
 	   "DigitalSignatureURL": "https://tidelift.com/packages/maven/org.springframework.boot:spring-boot-latest-cycloneDX.xml.sig"
 	},
+	{
+	   "type": "spdx",
+	   "URL": "https://tidelift.com/external-api/packages/maven/org.springframework.boot/releases/3.0.5/sbom.spdx",
+	   "DigitalSignatureURL": "https://tidelift.com/packages/maven/org.springframework.boot:spring-boot-latest-spdx.xml.sig"
+	}
+   ],
    "PackageManager2FAEnabled": "NOASSERTION",
    "SourceRepo2FAEnabled": "NOASSERTION",
    "KnownReleasesURL": "https://tidelift.com/packages/maven/org.springframework.boot:spring-boot/releases-map",
