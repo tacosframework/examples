@@ -24,12 +24,12 @@ Example implementations of TACOS framework. Please read the definitions in the [
    "ReleasesInUse": ["2.14.2, 2.14.0, 2.9.8"],
    "SBOM": [
    	{
-	   "type": "cycloneDX",
+	   "Type": "cycloneDX",
 	   "URL": "https://tidelift.com/external-api/packages/maven/org.apache.samplepackage/releases/2.14.2/sbom.xml",
 	   "DigitalSignatureURL": "https://tidelift.com/packages/maven/org.apache.samplepackage-latest-cycloneDX.xml.sig"
 	},
 	{
-	   "type": "spdx",
+	   "Type": "spdx",
 	   "URL": "https://tidelift.com/external-api/packages/maven/org.apache.samplepackage/releases/2.14.2/sbom.spdx",
 	   "DigitalSignatureURL": "https://tidelift.com/packages/maven/org.apache.samplepackage-latest-spdx.xml.sig"
 	}
@@ -96,12 +96,12 @@ Example implementations of TACOS framework. Please read the definitions in the [
    "ReleasesInUse": ["1.4.1"],
    "SBOM": [
    	{
-	   "type": "cycloneDX",
+	   "Type": "cycloneDX",
 	   "URL": "https://tidelift.com/external-api/packages/pypi/python-samplepackage/releases/1.4.1/sbom.xml",
 	   "DigitalSignatureURL": "https://tidelift.com/packages/pypi/python-samplepackage-latest-cycloneDX.xml.sig"
 	},
 	{
-	   "type": "spdx",
+	   "Type": "spdx",
 	   "URL": "https://tidelift.com/external-api/packages/pypi/python-samplepackage/releases/1.4.1/sbom.spdx",
 	   "DigitalSignatureURL": "https://tidelift.com/packages/pypi/python-samplepackage-latest-spdx.xml.sig"
 	}
@@ -155,12 +155,12 @@ Example implementations of TACOS framework. Please read the definitions in the [
    "ReleasesInUse": ["2.2.1.RELEASE, 2.7.10, 2.7.8, 2.7.7"],
    "SBOM": [
    	{
-	   "type": "cycloneDX",
+	   "Type": "cycloneDX",
 	   "URL": "https://tidelift.com/external-api/packages/maven/org.springframework.boot/releases/3.0.5/sbom.xml",
 	   "DigitalSignatureURL": "https://tidelift.com/packages/maven/org.springframework.boot:spring-boot-latest-cycloneDX.xml.sig"
 	},
 	{
-	   "type": "spdx",
+	   "Type": "spdx",
 	   "URL": "https://tidelift.com/external-api/packages/maven/org.springframework.boot/releases/3.0.5/sbom.spdx",
 	   "DigitalSignatureURL": "https://tidelift.com/packages/maven/org.springframework.boot:spring-boot-latest-spdx.xml.sig"
 	}
