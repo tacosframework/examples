@@ -5,8 +5,8 @@ Example implementations of TACOS framework. Please read the definitions in the [
 
 ```json
 {
-  "@context": "domain/namespace",
-  "@id": "document URL",
+  "@id": "https://github.com/tacosframework/",
+  "location": "document URL",
   "Signature": {"type": "sha256", "digest": "78ab8..."},
   "author": "Firstname Lastname",
   "role": "Attestor",
@@ -77,8 +77,8 @@ Example implementations of TACOS framework. Please read the definitions in the [
 
 ```json
 {
-  "@context": "domain/namespace",
-  "@id": "document URL",
+  "@id": "https://github.com/tacosframework/",
+  "location": "document URL",
   "signature": {"type": "sha256", "digest": "78ab8..."},
   "author": "Firstname Lastname",
   "role": "Attestor",
@@ -136,8 +136,8 @@ Example implementations of TACOS framework. Please read the definitions in the [
 ## **Upstream application library supported by a vendor**
 ```json
 {
-  "@context": "domain/namespace",
-  "@id": "document URL",
+  "@id": "https://github.com/tacosframework/",
+  "location": "document URL",
   "signature": {"type": "sha256", "digest": "78ab8..."},
   "author": "Firstname Lastname",
   "role": "Attestor",
