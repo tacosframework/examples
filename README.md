@@ -11,7 +11,7 @@ Example implementations of TACOS framework. Please read the definitions in the [
   "author": "Firstname Lastname",
   "role": "Attestor",
   "LastModifiedDateTimeUTC": "2022-03-23T05:35.37:00+04:00"
-  "TACOSversion": "1",
+  "TACOSversion": "1.1",
   "application": "HelloWorld",
   "statements": [
    {
@@ -34,12 +34,13 @@ Example implementations of TACOS framework. Please read the definitions in the [
 	   "DigitalSignatureURL": "https://tidelift.com/packages/maven/org.apache.samplepackage-latest-spdx.xml.sig"
 	}
    ],
-   "PackageManager2FAEnabled": "True",
-   "SourceRepo2FAEnabled": "True",
+   "PackageManagerMFAEnabled": "True",
+   "SourceRepoMFAEnabled": "True",
+   "DocumentedBuildPractices": "True",
    "KnownReleasesURL": "https://tidelift.com/packages/maven/org.apache.samplepackage/releases-map",
    "CleanReleaseAvailable": "True",
-   "NoKnownVulnerabilities": "True",
-   "NoKnownVulnerabilitiesInDependencies": "True",
+   "FixedVulnerabilities": "True",
+   "DependenciesAreManaged": "True",
    "KnownVulnerabilitiesURL": "https://tidelift.com/packages/maven/org.apache.samplepackage/vulnerabilties-map",
    "PackageSecurityPolicyURL": "https://github.com/Apache/samplepackage/security/policy",
    "PackageSecurityContact": "https://tidelift.com/security",
@@ -85,7 +86,7 @@ Example implementations of TACOS framework. Please read the definitions in the [
   "author": "Firstname Lastname",
   "role": "Attestor",
   "LastModifiedDateTimeUTC": "2022-03-23T05:35.37:00+04:00"
-  "TACOSversion": "1",
+  "TACOSversion": "1.1",
   "application": "HelloWorld",
   "statements": [
    {
@@ -108,12 +109,13 @@ Example implementations of TACOS framework. Please read the definitions in the [
 	   "DigitalSignatureURL": "https://tidelift.com/packages/pypi/python-samplepackage-latest-spdx.xml.sig"
 	}
    ],
-   "PackageManager2FAEnabled": "NOASSERTION",
-   "SourceRepo2FAEnabled": "NOASSERTION",
+   "PackageManagerMFAEnabled": "NOASSERTION",
+   "SourceRepoMFAEnabled": "NOASSERTION",
+   "DocumentedBuildPractices": "NOASSERTION",
    "KnownReleasesURL": "https://github.com/maintainername/python-samplepackage/tags",
    "CleanReleaseAvailable": "False",
-   "NoKnownVulnerabilities": "False",
-   "NoKnownVulnerabilitiesInDependencies": "False",
+   "FixedVulnerabilities": "False",
+   "DependenciesAreManaged": "False",
    "KnownVulnerabilitiesURL": "https://nvd.nist.gov/vuln/detail/CVE-2023-XXXXX",
    "PackageSecurityPolicyURL": "https://github.com/maintainername/python-samplepackage/security",
    "PackageSecurityContact": "https://github.com/maintainername/python-samplepackage/security",
@@ -146,7 +148,7 @@ Example implementations of TACOS framework. Please read the definitions in the [
   "author": "Firstname Lastname",
   "role": "Attestor",
   "LastModifiedDateTimeUTC": "2022-03-23T05:35.37:00+04:00"
-  "TACOSversion": "1",
+  "TACOSversion": "1.1",
   "application": "HelloWorld",
   "statements": [
    {
@@ -169,12 +171,13 @@ Example implementations of TACOS framework. Please read the definitions in the [
 	   "DigitalSignatureURL": "https://tidelift.com/packages/maven/org.springframework.boot:spring-boot-latest-spdx.xml.sig"
 	}
    ],
-   "PackageManager2FAEnabled": "NOASSERTION",
-   "SourceRepo2FAEnabled": "NOASSERTION",
+   "PackageManagerMFAEnabled": "NOASSERTION",
+   "SourceRepoMFAEnabled": "NOASSERTION",
+   "DocumentedBuildPractices": "NOASSERTION",
    "KnownReleasesURL": "https://tidelift.com/packages/maven/org.springframework.boot:spring-boot/releases-map",
    "CleanReleaseAvailable": "True",
-   "NoKnownVulnerabilities": "False",
-   "NoKnownVulnerabilitiesInDependencies": "False",
+   "FixedVulnerabilities": "False",
+   "DependenciesAreManaged": "False",
    "KnownVulnerabilitiesURL": "https://tidelift.com/packages/maven/org.springframework.boot:spring-boot/vulnerabilties-map",
    "PackageSecurityPolicyURL": "https://www.vmware.com/support/policies/security_response.html",
    "PackageSecurityContact": "security@vmware.com",
