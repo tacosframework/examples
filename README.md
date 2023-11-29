@@ -50,7 +50,6 @@ Example implementations of TACOS framework. Please read the definitions in the [
    "NoBinariesInRepository": "True",
    "CodeReviewPractice": "True",
    "FuzzingPractice": "False",
-   "ReleasesDigitallySigned": "False",
    "SDLCPolicyURL": "https://support.tidelift.com/hc/en-us/sections/6793135744404-Lifter-tasks",
    "SDLCEvidenceDataURL": "https://tidelift.com/packages/maven/org.apache.samplepackage/",
    "PackageStatus": {
@@ -125,7 +124,6 @@ Example implementations of TACOS framework. Please read the definitions in the [
    "NoBinariesInRepository": "NOASSERTION",
    "CodeReviewPractice": "NOASSERTION",
    "FuzzingPractice": "NOASSERTION",
-   "ReleasesDigitallySigned": "False",
    "SDLCPolicyURL": "NOASSERTION",
    "SDLCEvidenceDataURL": "NOASSERTION",
    "PackageStatus": {
@@ -187,7 +185,6 @@ Example implementations of TACOS framework. Please read the definitions in the [
    "NoBinariesInRepository": "NOASSERTION",
    "CodeReviewPractice": "NOASSERTION",
    "FuzzingPractice": "NOASSERTION",
-   "ReleasesDigitallySigned": "NOASSERTION",
    "SDLCPolicyURL": "https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/support/vmware-external-vulnerability-response-and-remediation-policy.pdf",
    "SDLCEvidenceDataURL": "https://spring.io/security/",
    "PackageStatus": {
